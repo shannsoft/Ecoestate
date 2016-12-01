@@ -1,21 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ecoestate Cambodia</title>
-    
     <link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/head-style.css">
-	<link rel="stylesheet" href="css/style.css">
+  	<link rel="stylesheet" href="css/head-style.css">
+  	<link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    
-    
-    
 </head>
 <body>
 <div id="main-wrap" class="container">
@@ -28,17 +23,23 @@
 					<div class="col-sm-7">
 						<ul class="nav nav-address">
 							<li>
-								<a class="text-u-l text-blue" href="">Upload A Property Free</a>
+								<a class="text-u-l text-blue" href="">Create Email Property</a>
+							</li>
+              <li>
+                <a class="text-u-l text-blue" href="">Saved Properties</a>
+              </li>
+              <li>
+                <a class="text-u-l text-blue" href="">Upload A Property Free</a>
+              </li>
+							<li>
+								<a class="text-red" href="">Login</a>
 							</li>
 							<li>
-								<a class="text-red" href="">Login</a> 
-							</li>	
-							<li>
 								or
-							</li>	
+							</li>
 							<li>
-								 <a class="text-red" href="">Register</a> 
-							</li>	
+								 <a class="text-red" href="">Register</a>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -46,7 +47,7 @@
 	</div>
 <nav class="navbar navbar-default navbar-static-top fluid_header">
 	<div class="container">
-		<div class="navbar-header">		
+		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_navigation" aria-expanded="false">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
@@ -54,38 +55,42 @@
 				<span class="icon-bar"></span>
 			</button>
 		</div>
-
 		<div class="collapse navbar-collapse" id="main_navigation">
-			<ul class="nav navbar-nav navbar-left">                               
-				<li><a href="#">Buy</a></li>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Rent</a>
+			<ul class="nav navbar-nav navbar-left">
+				<li><a href="property-listing.html">Buy</a></li>
+        <li><a href="property-listing.html">Rent</a></li>
+				<li><a href="newdevlopements.html">New developments </a></li>
+        <li><a href="#">Condo</a></li>
+        <li><a href="#">Boreys</a></li>
+				<li><a href="#">Commercial</a></li>
+        <li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Loan Application</a>
 					<ul class="dropdown-menu">
-						<li><a href="#">abcd</a></li>
-						<li><a href="#">abcd</a></li>
-						<li><a href="#">abcd</a></li>
-						<li><a href="#">abcd</a></li>
-						<li><a href="#">abcd</a></li>
+						<li><a href="#">Loans & Mortgages</a></li>
+						<li><a href="#">Finance Calculators</a></li>
+						<li><a href="#">Insurance</a></li>
+						<li><a href="#">Home Valuation</a></li>
 					</ul>
 				</li>
-				<li><a href="#">New developments </a></li>
-				<li><a href="#">Commercial</a></li>
-				<li><a href="#">Loan Application</a></li>
 				<li><a href="#">Agents</a></li>
-				<li><a href="#">Guides</a></li>
-																	
+        <li><a href="#">News</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guides</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Investors</a></li>
+          </ul>
+        </li>
 			</ul>
 		</div>
 	</div>
 </nav>
-    
 <section class="banner-section">
 	<div class="container">
 		<div class="row">
-		
 			<div class="col-sm-4">
 				<div class="banner-form">
-					<h3>Property for Rent in Cambodia</h3>
+					<h3>Property for Sell in Cambodia</h3>
 					<div class="radio radio-success">
 						<input type="radio" value="one" name="optionyes" id="one">
 						<label for="one">Buy</label>
@@ -99,57 +104,84 @@
 					<label>Search</label>
 					<input class="form-control" placeholder="Search">
 				  </div>
+          <div class="form-group">
+            <label class="select-title">Property Type</label>
+            <select class="form-control">
+            </select>
+           </div>
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="form-group">
-							<label class="select-title">Property Type</label>
+							<label class="select-title">Min Price</label>
 							<select class="form-control">
-							  <option>1</option>
-							  <option>2</option>
-							  <option>3</option>
-							  <option>4</option>
-							  <option>5</option>
+							  <option>Any</option>
+							  <option>$30,000</option>
+							  <option>$40,000</option>
+							  <option>$50,000</option>
+							  <option>$100,000</option>
+                <option>$200,000</option>
+                <option>$300,000</option>
+                <option>$400,000</option>
+                <option>$500,000</option>
+                <option>$1000,000</option>
 							</select>
 						</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="form-group">
-							<label class="select-title">Property Type</label>
+							<label class="select-title">Max Price</label>
 							<select class="form-control">
-							  <option>1</option>
-							  <option>2</option>
-							  <option>3</option>
-							  <option>4</option>
-							  <option>5</option>
+                <option>Any</option>
+							  <option>$30,000</option>
+							  <option>$40,000</option>
+							  <option>$50,000</option>
+							  <option>$100,000</option>
+                <option>$200,000</option>
+                <option>$300,000</option>
+                <option>$400,000</option>
+                <option>$500,000</option>
+                <option>$1000,000</option>
 							</select>
 						</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="form-group">
-							<label class="select-title">Property Type</label>
+							<label class="select-title">Min Bed</label>
 							<select class="form-control">
-							  <option>1</option>
-							  <option>2</option>
-							  <option>3</option>
-							  <option>4</option>
-							  <option>5</option>
+                <option>Any</option>
+							  <option>1 bed</option>
+							  <option>2 bed</option>
+							  <option>3 bed</option>
+							  <option>4 bed</option>
+							  <option>5 bed</option>
+                <option>6 bed</option>
+                <option>7 bed</option>
+                <option>8 bed</option>
+                <option>9 bed</option>
+                <option>10+ bed</option>
 							</select>
 						</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="form-group">
-							<label class="select-title">Property Type</label>
+							<label class="select-title">Max Bed</label>
 							<select class="form-control">
-							  <option>1</option>
-							  <option>2</option>
-							  <option>3</option>
-							  <option>4</option>
-							  <option>5</option>
+                <option>Any</option>
+							  <option>1 bed</option>
+							  <option>2 bed</option>
+							  <option>3 bed</option>
+							  <option>4 bed</option>
+							  <option>5 bed</option>
+                <option>6 bed</option>
+                <option>7 bed</option>
+                <option>8 bed</option>
+                <option>9 bed</option>
+                <option>10+ bed</option>
 							</select>
 						</div>
 					</div>
 					<div class="col-sm-12 text-right">
-						<a href="" class="btn btn-black">Search</a>
+						<a href="property-listing.html" class="btn btn-black">Search</a>
 					</div>
 				</div>
 			</div>
@@ -163,7 +195,7 @@
 			</div>
 		</div>
 	</div>
-</section>  
+</section>
 <section class="listing-section">
 		<div class="row">
 			<div class="col-sm-12">
@@ -175,9 +207,9 @@
 					<img class="img-responsive" src="images/list-img-1.jpg"/>
 					<div class="content">
 						<h4>Big House 3 Floors + Flat Roof Terrace</h4>
-						<span class="label label-default">For Sale</span>
-						<span class="label label-primary">170 ft Square Feet</span>
-						<span class="label label-success">Available</span>
+						<span class="label label-default"><i class="fa fa-star-half-o" aria-hidden="true"></i>save</span>
+						<span class="label label-primary"><i class="fa fa-phone" aria-hidden="true"></i>call</span>
+						<span class="label btn btn-danger"><i class="fa fa-envelope" aria-hidden="true"></i>Email Agent</span>
 						<ul>
 							<li><i class="fa fa-tag"></i>Bedroom 5</li>
 							<li><i class="fa fa-tag"></i>Bedroom 5</li>
@@ -202,9 +234,9 @@
 					<img class="img-responsive" src="images/list-img-1.jpg"/>
 					<div class="content">
 						<h4>Big House 3 Floors + Flat Roof Terrace</h4>
-						<span class="label label-default">For Sale</span>
-						<span class="label label-primary">170 ft Square Feet</span>
-						<span class="label label-success">Available</span>
+            <span class="label label-default"><i class="fa fa-star-half-o" aria-hidden="true"></i>save</span>
+            <span class="label label-primary"><i class="fa fa-phone" aria-hidden="true"></i>call</span>
+            <span class="label btn btn-danger"><i class="fa fa-envelope" aria-hidden="true"></i>Email Agent</span>
 						<ul>
 							<li><i class="fa fa-tag"></i>Bedroom 5</li>
 							<li><i class="fa fa-tag"></i>Bedroom 5</li>
@@ -229,9 +261,9 @@
 					<img class="img-responsive" src="images/list-img-1.jpg"/>
 					<div class="content">
 						<h4>Big House 3 Floors + Flat Roof Terrace</h4>
-						<span class="label label-default">For Sale</span>
-						<span class="label label-primary">170 ft Square Feet</span>
-						<span class="label label-success">Available</span>
+            <span class="label label-default"><i class="fa fa-star-half-o" aria-hidden="true"></i>save</span>
+						<span class="label label-primary"><i class="fa fa-phone" aria-hidden="true"></i>call</span>
+						<span class="label btn btn-danger"><i class="fa fa-envelope" aria-hidden="true"></i>Email Agent</span>
 						<ul>
 							<li><i class="fa fa-tag"></i>Bedroom 5</li>
 							<li><i class="fa fa-tag"></i>Bedroom 5</li>
@@ -251,7 +283,6 @@
 					</div>
 				</div>
 			</div>
-			
 		</div>
 </section>
 <section class="clients-section">
@@ -278,24 +309,19 @@
 			<div class="col-sm-2">
 				<img class="img-responsive" src="images/clients/client-1.png" />
 			</div>
-
-		
 		</div>
 </section>
-
-
-
-
 <footer class="ftr-section">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3">
-				<h3>About Cambodia</h3>
+			<div class="col-md-5">
+        <p class="logo">
+            <img src="http://realestate.com.kh/wp-content/themes/reakh/images/new_images/reakh-foot-logo.png">
+                </p
+				<h5>About Cambodia</h5>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				<p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 			</div>
-			<div class="col-md-1"></div>
-			
 			<div class="col-md-4">
 				<h3>Quick Links</h3>
 				<div class="list-menu">
@@ -309,16 +335,71 @@
 						 <li><a href="">On Rent</a></li>
 						 <li><a href="">On Sale</a></li>
 					</ul>
-
 				</div>
 			</div>
-			<div class="col-md-1"></div>
+			<!-- <div class="col-md-1"></div> -->
 			<div class="col-md-3">
 				<h3>Address</h3>
 				<p>Big House 3 Floors + Flat Roof Terrace multiplex</p>
 				<p>Tel : +855 016463907</p>
 				<p>Email : lin@realestatecambodia.com</p>
 			</div>
+    </div>
+      <div class="row">
+        <div class="col-md-3">
+          <ul>
+                    <p>Popular Searches</p>
+                    <p>Property Cambodia</p>
+                    <p>Real Estate Cambodia</p>
+                    <p>Property Phnom Penh</p>
+                    <p>Real Estate Phnom Penh</p>
+                    <p>Property Siem Reap</p>
+                    <p>Real Estate Siem Reap</p>
+                    <p>Condo Phnom Penh</p>
+                    <p>Villa Phnom Penh</p>
+                    <p>Land Cambodia</p>
+                    <p>Land Phnom Penh</p>
+                  </ul>
+        </div>
+        <div class="col-md-3">
+                    <p>Popular cities/Provinces</p>
+                    <p>Phnom Penh</p>
+                    <p>Sihanoukville</p>
+                    <p>Kep</p>
+                    <p>Kampot</p>
+                    <p>Battambang</p>
+                    <p>Kandal</p>
+                    <p>Takeo</p>
+                    <p>Kampong Cham</p>
+                    <p>Kampong Chhnang</p>
+        </div>
+        <div class="col-md-3">
+            <p>Popular Khans/Districts</p>
+             <p>Chamkarmon</p>
+             <p>Daun Penh</p>
+             <p>Toul Kork</p>
+             <p>Makara</p>
+             <p>Russey Keo</p>
+             <p>Meanchey</p>
+             <p>Dangkao</p>
+             <p>Sen Sok</p>
+             <p>Por Sen Chey</p>
+             <p>Chroy Changvar</p>
+        </div>
+        <div class="col-md-3">
+            <p>Popular Sangkats</p>
+            <p>Tonle Bassac</p>
+            <p>Boeung Keng Kang</p>
+            <p>Toul Tum Poung</p>
+            <p>Olympic</p>
+            <p>Ou Ruessei</p>
+            <p>Toul Svay Prey</p>
+            <p>Phsar Thmei</p>
+            <p>Sala Kamroeuk</p>
+            <p>Mittapheap</p>
+            <p>Svay Dankum</p>
+        </div>
+      </div>
 			<div class="col-md-12">
 				<div class="ftr-line"></div>
 			</div>
@@ -333,26 +414,12 @@
 					<li><a target="_blank" class="ig" href=""><i class="fa fa-instagram"></i></a></li>
 				  </ul>
 			</div>
-			
 		</div>
-	</div>
 </footer>
-    
 </div>
-    
-
-    
-    
-   
-    
-    
-    
-    
 <!--jQuery-->
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/theme.js"></script>
-
-
 </body>
 </html>

@@ -93,7 +93,7 @@ line-height: 50px;
 .fluid_header .navbar-nav.navbar-left li.dropdown:hover .dropdown-menu {
 	transform: scale(1, 1);
 	-webkit-transform: scale(1, 1);
- 
+
 }
 .fluid_header .navbar-nav.navbar-left li.active a,
 .fluid_header .navbar-nav.navbar-left li.open a {
@@ -233,4 +233,9 @@ line-height: 50px;
 	font-size:12px;
 	color:#9c9c9c;
 }
-
+.search-box{
+  margin-left: 85px;
+}
+. label{
+  font-size:10px;
+}
