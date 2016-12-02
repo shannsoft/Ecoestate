@@ -21,15 +21,19 @@ box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.29);
 
 .text-red{color:#ff0000!important;}
 .text-blue{color:#1575bb!important;}
+.banner-section{
+	display:block;
+	padding-bottom:20px;
+}
 
 .banner-form{
 	background:#fff;
 	display:block;
 }
 .banner-form h3{
-	font-size:20px;
-	margin:20px 0px;
-	padding:0px;
+	font-size: 18px;
+    margin: 15px 0px;
+    padding: 0px;
 }
 .btn-blue{
 	background:#1575bb;
@@ -158,8 +162,25 @@ box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.29);
 	padding-top:40px;
 	padding-bottom: 10px;
 }
+.ftr-section .logo{
+	display:block;
+}
+.ftr-section .logo img{
+	width:250px;
+}
+.ftr-section ul{
+	margin:0;
+	padding:0;
+}
 .ftr-section h3{
 	font-size:18px;
+	font-weight:bold;
+	margin-bottom:20px;
+	margin-top:0px;
+	color:#dddddd;
+}
+.ftr-section h5{
+	font-size:16px;
 	font-weight:bold;
 	margin-bottom:20px;
 	margin-top:0px;
@@ -306,12 +327,94 @@ box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.29);
 .property-listing-content ul li i{
 	margin-right:10px;
 }
-
-
-
-
-
-
+.label i{
+    margin-right:5px;
+}
+.inner-title-section{
+	background:#efefef;
+	padding:50px 20px;
+}
+.inner-title-section h2{
+	font-size:26px;
+	margin:0px;
+	padding:0px;
+}
+.page-section{
+	margin:0px 15px;
+	display:block;
+}
+.agent-list{
+	display:block;
+}
+.agent-list h3{
+	font-size:22px;
+	margin:0px 0px 15px;
+}
+.agent-list p{
+	font-size:14px;
+}
+.agent-list ul{
+	margin:0px;
+	padding:0px;
+}
+.agent-list ul li{
+	list-style:none;
+	display:inline-block;
+	margin-right:20px;
+}
+.gray-line{
+	height:1px;
+	background:#ddd;
+	display:block;
+	margin:40px 0px;
+}
+.gray-line2{
+	height:1px;
+	background:#ddd;
+	display:block;
+	margin:20px 0px;
+}
+.sidebar-wrap{
+	background: #f4f8fa;
+	padding: 20px;
+}
+.m-h{
+	min-height: 1020px;
+}
+.sidebar-wrap h3{
+	font-size:20px;
+	margin:0px 0px 20px;
+}
+.p-v-30{
+	padding-top:30px;
+	padding-bottom:30px;
+}
+.m-t-10{margin-top:10px;}
+.custom-paginaton{
+	margin:0px;
+	padding:0px;
+}
+.property-content-wrap{
+	display:block;
+}
+.property-content-wrap h3{
+	font-size:20px;
+}
+.property-content-wrap h4{
+	font-size:18px;
+}
+.property-content-wrap ul{
+	margin:0px;
+	padding:0px;
+}
+.property-content-wrap ul li{
+	line-height:24px;
+	list-style:none;
+}
+.property-content-wrap ul li i{
+	margin-right:5px;
+	color:#555;
+}
 
 
 
