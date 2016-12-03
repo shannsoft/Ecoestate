@@ -146,7 +146,7 @@ box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.29);
 
 .clients-section{
 	display:block;
-	padding:50px 10px;
+	padding:30px 10px 40px;
 }
 .clients-section h2{
 	font-size:22px;
@@ -415,11 +415,44 @@ box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.29);
 	margin-right:5px;
 	color:#555;
 }
+.login-section-wrap{
+	display:block;
+	margin:40px 0px 40px;
+}
+
+.login-section-wrap h2{
+	font-size:20px;
+	margin:0px 0px 10px;
+	padding:0px;
+}
+.login-section-wrap a{
+	text-decoration:underline;
+}
 
 
+.login-section{
+	display:block;
+	background:#eee;
+	border-radius:4px;
+	padding:40px;
+}
 
-
-
+.guide-section{
+	display:block;
+	padding: 20px 15px 20px;
+}
+.guide-section h4{
+	margin:0px 0px 10px;
+}
+.m-r-10{
+	margin-right:10px;
+}
+.m-t-20{
+	margin-top:20px;
+}
+.m-b-40{
+	margin-bottom:40px;
+}
 
 /*Input Types*/
 .form-control {
