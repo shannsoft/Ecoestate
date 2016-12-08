@@ -614,7 +614,7 @@ box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.29);
     background-color: #eceff3;
 }
 .checkbox.check-success input[type=checkbox]:checked+label:before {
-    border-color: #10cfbd;
+    border-color: #0766ac;
 }
 .checkbox.check-primary input[type=checkbox]:checked+label:before {
     border-color: #6d5cae;
